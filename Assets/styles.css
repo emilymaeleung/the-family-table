@@ -1,10 +1,9 @@
 
 :root {
     --primary-color: #8DAA6D;
-    --secondary-color: #000000;
+    --secondary-color: #273238;
     --tertiary-color: #ffffff;
     --accent-color: #A32C27;
-    --dark: #273238;
     --grey: #5E7383;
     --highlight-color: #EB8340;
     --yellow-accent: #F3BB5D;
@@ -20,18 +19,18 @@ body {
 }
 
 nav {
-    background-color: var(--tertiary-color);
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
+    padding-top: 1%;
 
 }
 
-.logo {
-    max-width: 200px;
+#logo {
+    max-width: 300px;
     padding: 1%;
 }
 
@@ -52,4 +51,35 @@ header {
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh;
+}
+
+.banner-text {
+    max-width: 1400px;
+    padding-right: 50%;
+    text-align: left;
+    padding-left: 19%;
+    padding-top: 20vh;
+
+}
+
+h1 {
+    var(--primary-font);
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 120%;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+p {
+    var(--primary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    margin-bottom: 5%;
+    color: var(--grey);
+}
+
+.nav-links {
+    text-decoration: none;
 }
