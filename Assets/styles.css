@@ -1,0 +1,55 @@
+
+:root {
+    --primary-color: #8DAA6D;
+    --secondary-color: #000000;
+    --tertiary-color: #ffffff;
+    --accent-color: #A32C27;
+    --dark: #273238;
+    --grey: #5E7383;
+    --highlight-color: #EB8340;
+    --yellow-accent: #F3BB5D;
+    --primary-font: poppins;
+
+}
+
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--tertiary-color);
+}
+
+nav {
+    background-color: var(--tertiary-color);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    max-width: 200px;
+    padding: 1%;
+}
+
+.button {
+    background-color: var(--highlight-color);
+    border: none; 
+    color: var(--tertiary-color);
+    padding: 15px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+header {
+    background-image: url(./media/dark-pan-with-fried-chicken-potato-whie-table.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
