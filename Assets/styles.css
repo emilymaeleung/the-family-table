@@ -30,6 +30,24 @@ nav {
 
 }
 
+h1 {
+    font-family: (--primary-font);
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 120%;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: (--primary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    margin-bottom: 5%;
+    color: var(--grey);
+}
+
 h2 {
     font-family: var(--primary-font);
     font-size: 45px;
@@ -40,6 +58,13 @@ h3 {
     font-family: var(--primary-font);
     font-size: 32px;
     font-weight: 500;
+}
+
+h6 {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 #logo {
@@ -90,23 +115,6 @@ header {
 
 }
 
-h1 {
-    font-family: (--primary-font);
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 120%;
-    margin: 0;
-    color: var(--secondary-color);
-}
-
-p {
-    font-family: (--primary-font);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
-    margin-bottom: 5%;
-    color: var(--grey);
-}
 
 #nav-links a {
     color: var(--secondary-color);
@@ -169,5 +177,46 @@ p {
     border-radius: 10px;
     padding: 3%;
     margin-top: 4%;
+    margin-bottom: 4%;
 
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+#footermenus {
+    display: flex;
+    margin: 0 auto;
+    gap: 130px;
+    
+}
+
+.f-menus {
+    list-style-type: none;
+    padding-left: 0;
+
+
+}
+
+.f-menus li {
+    margin-bottom: 10px;
+}
+
+.f-menus li:hover {
+    color: var(--primary-color);
+}
+
+.copyright {
+    font-size: 14px;
+    background-color: #212a30;
+    padding: 10px;
+    margin: auto 0;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
 }
