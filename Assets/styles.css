@@ -8,6 +8,7 @@
     --highlight-color: #EB8340;
     --yellow-accent: #F3BB5D;
     --primary-font: poppins;
+    --light: #edf9ff;
 
 }
 
@@ -29,6 +30,12 @@ nav {
 
 }
 
+h2 {
+    font-family: var(--primary-font);
+    font-size: 45px;
+    font-weight: 500;
+}
+
 h3 {
     font-family: var(--primary-font);
     font-size: 32px;
@@ -44,7 +51,7 @@ h3 {
 #logo:hover {
     max-width: 300px;
     padding: 1%;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .button {
@@ -134,9 +141,33 @@ p {
 }
 
 .box:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .icon {
     max-width: 50px;
+}
+
+.checklist {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.checklists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--light);
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 4%;
+
 }
