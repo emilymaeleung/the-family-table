@@ -220,3 +220,23 @@ footer {
     text-align: center;
     color: #ffffff;
 }
+
+.free-trial {
+    background-color: var(--accent-color);
+    color: var(--tertiary-color);
+    position: fixed;
+    max-width: 200px;
+    text-align: center;
+    bottom: 150px;
+    border-radius: 2px;
+    z-index: 1000;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.free-trial:hover {
+    background-color: #212a30;
+}
