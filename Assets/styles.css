@@ -240,3 +240,28 @@ footer {
 .free-trial:hover {
     background-color: #212a30;
 }
+
+
+.about-header {
+    background-image: url(./media/julien-sarazin-n3mK4n_nF7g-unsplash.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 50vh;
+}
+
+.feature-white {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+.feature-image {
+    max-width: 50%;
+    border-radius: 10px;
+}
