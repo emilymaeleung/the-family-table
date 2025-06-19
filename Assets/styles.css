@@ -314,3 +314,13 @@ input {
     background-repeat: no-repeat; 
     height: 50vh;
 }
+
+.emoji::before {
+    content: "✉️";
+    padding-right: 10px;
+}
+
+.emoji2::before {
+    content: "📱";
+    padding-right: 10px;
+}
